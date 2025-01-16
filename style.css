@@ -56,7 +56,6 @@ main {
 
 #box {
   margin: 1rem;
-  border-radius: 10px;
   max-width: 300px;
 }
 
@@ -71,6 +70,8 @@ main {
 #box #text {
   background-color: var(--White);
   padding: 1rem;
+
+  border-radius: 0 0 10px 10px;
 
   h1 {
     font-size: 1.7rem;
@@ -129,7 +130,6 @@ main {
     padding: 0.8em 1em;
     border-radius: 5px;
     width: 100%;
-    font-size: 0.75rem;
     font-weight: 700;
     transition: background-color 0.3s ease-in-out;
 
@@ -140,6 +140,7 @@ main {
 }
 
 #Cart {
+  overflow: hidden;
   display: none;
   text-align: center;
   padding: 1rem;
@@ -264,6 +265,7 @@ main {
 
   #box #text {
     padding: 1rem 2rem;
+    border-radius: 0 10px 10px 0;
 
     h1 {
       max-width: 10ch;
